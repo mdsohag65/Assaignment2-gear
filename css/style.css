@@ -131,11 +131,12 @@ nav{
     font-size: 18px;
 }
 #see-button{
+    
    border: none;
    color: #E02C6D;
    font-weight: 600;
    font-size: 16px;
-   padding-left: 1150px;
+   padding-left: 1000px;
 }
 /* -----------------last part----------------------- */
 .last-section{
@@ -145,6 +146,7 @@ nav{
 .last-left img{
     width: 80%;
     padding-left: 50px;
+    padding-bottom: 50px;
 }
 .last-right h2{
     line-height: 30px;
@@ -169,4 +171,54 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 15px;
+}
+/*-------------------- media quueries------------------ */
+
+@media screen and (max-width:480px) {
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    .banner-left{
+        order: 2;
+    }
+    .collection-banner img{
+        width: 250px;
+    
+    }
+    .collection{
+        border: none;
+    }
+    .collections{
+        grid-template-columns: 1fr;
+    }
+    .banner-left h1{
+        font-size: 25px;
+    }
+    .banner-left p{
+        font-size: 14px;
+    }
+    .banner-right img{
+        width: 300px;
+        height: 300px;
+    }
+    .last-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    .last-right{
+        padding-left: 45px;
+    }
+    .primary-button{
+        margin-bottom: 15px;
+    }
+    
+}
+@media screen and (min-width:481) and (max-width:850){
+    .collections{
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
