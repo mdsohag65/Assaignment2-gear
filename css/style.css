@@ -63,6 +63,110 @@ nav{
     padding: 5%;
 }
 
-banner-right img{
+.banner-right img{
     width: 70%;
+}
+/*-----------------------------
+------------ header  done
+------------------------------ */
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 25px;
+    display: inline-block;
+    border-bottom: 2px solid #E02C6D;
+    margin: 50px 0;
+}
+/*------------------- collection style----------------- */
+
+.collections{
+    padding-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+}
+.rating{
+    display: flex;
+}
+.collection .collection-banner{
+    width: 300px;
+    height: 256px;
+}
+.collection-banner img{
+    width: 300px;
+    height: 256px;
+}
+.collection{
+    width: 300px;
+    height: 390px;
+    border: 1px solid rgba(224, 44, 109, 0.87);;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+}
+.fa-star{
+    width: 16px;
+    height: 16px;
+    left: 28px;
+    padding-left: 6px;
+}
+.fa-star.filled{
+    color: goldenrod;
+}
+.fa-star.empty{
+    color: grey;
+}
+.title{
+    padding-top: 8px;
+}
+.price{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.details{
+    font-weight: 700px;
+    font-size: 18px;
+}
+#see-button{
+   border: none;
+   color: #E02C6D;
+   font-weight: 600;
+   font-size: 16px;
+   padding-left: 1150px;
+}
+/* -----------------last part----------------------- */
+.last-section{
+    padding-top: 60px;
+    display: flex;
+}
+.last-left img{
+    width: 80%;
+    padding-left: 50px;
+}
+.last-right h2{
+    line-height: 30px;
+    font-size: larger;
+
+}
+.last-right p{
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: rgb(5, 5, 24);
+    color: white;
+    padding-top: 60px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
 }
